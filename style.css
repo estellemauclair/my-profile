@@ -1,0 +1,120 @@
+
+body {
+  background-color:#565656;
+  color: #E0E0E0;
+  font-weight: lighter;
+  font-family: 'Modern Love Grunge',sans-serif;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 6px ;
+}
+
+#pfp {
+  width: 240px;
+  border-radius: 50%;
+  box-shadow: 5px 3px 5px beige;
+  border: 5px #CB9173;
+}
+
+
+a {
+  text-decoration: none;
+  color: #CB9173;
+  transition: 0.5s ease;
+}
+h4 {
+
+  color:white;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+
+
+
+ .grey-card {
+    background: #3D3D3D;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 1px 1px 10px #E0E0E0;
+    border-radius: 10px;
+    margin: 40px auto;
+    width:700px;
+}
+
+ul{
+  text-align: left;
+}
+
+
+.container {
+  width: 800 px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+@media (max-width:500px) {
+  .container {
+    width: 200px;
+  }
+}
+
+@media (max-width:760px) {
+  .container {
+    width: 600px;
+  }
+}
+#contact-card {
+  align-content: center;
+}
+
+#button {
+  color: white;
+  /* existing CSS code */
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+  background-color: #CB9173;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  max-width: 600px;
+  text-decoration: none;
+  
+}
+
+
+.logos{
+  font-size:50px;
+  font-color: #CB9173;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Add this line to center the logos */
+}
+
+.logos li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.logos li:last-child {
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
